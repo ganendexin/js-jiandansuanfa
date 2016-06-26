@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+	var array = [22,44,46,11,33,55,777,99]
+	for(i=0;i<array.length-1;i++) {
+		if(array[i] > array[i+1]) {
+			var tem = array[i];
+			array[i] = array[i+1];
+			array[i+1] = tem;
+		}
+	}
+	console.log(array);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
